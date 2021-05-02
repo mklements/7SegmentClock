@@ -125,7 +125,7 @@ void updateMid()
       pwmM.setPWM(8, 0, segmentMOn[8]-midOffset);
     if(digits[prevMinuteTens][6]==1)
       pwmM.setPWM(12, 0, segmentMOn[12]+midOffset);
-  }
+  } 
   delay(100);
   if(digits[minuteTens][6]==1)
     pwmM.setPWM(13, 0, segmentHOn[13]);
